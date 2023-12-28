@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: blanchedalmond;
+}
+
+.container {
+    position: relative;
+    background-color: white;
+    width: 50vw;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header {
+    margin: 5px;
+}
+
+.header h1{
+    margin: 5px;
+}
+
+.form {
+    padding: 10px;
+    position: relative;
+}
+
+.options-div .options {
+    background-color: azure;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 2px solid rgb(188, 173, 173);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.options-div .options:hover{
+    background-color: rgb(191, 237, 237);
+}
+
+.form button {
+    padding: 5px;
+    width: 10rem;
+    border-radius: 5px;
+    border: none;
+    height: 2.5rem;
+    margin-top: 10px;
+    background-color: rgb(243, 220, 185);
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.form button:hover{
+    background-color: rgb(232, 191, 139);
+}
+
+.score {
+    width: 10rem;
+    height: 10rem;
+    background-color: rgb(128, 103, 135);
+    position: absolute;
+    border-radius: 5rem;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
